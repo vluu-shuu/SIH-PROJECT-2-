@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cmine-intelligence-sih26023
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
